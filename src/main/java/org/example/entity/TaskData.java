@@ -6,11 +6,10 @@ import java.util.Set;
 public class TaskData {
 
 
-
-    Set<Task> annsTasks=new HashSet<>();
-    Set<Task> bobsTasks=new HashSet<>();
-    Set<Task> carolsTasks=new HashSet<>();
-    Set<Task> unassignedTasks =new HashSet<>();
+   private Set<Task> annsTasks=new HashSet<>();
+    private Set<Task> bobsTasks=new HashSet<>();
+    private  Set<Task> carolsTasks=new HashSet<>();
+    private Set<Task> unassignedTasks =new HashSet<>();
 
 
     public TaskData(Set<Task> annsTasks, Set<Task> bobsTasks, Set<Task> carolsTasks, Set<Task> unassignedTasks) {
