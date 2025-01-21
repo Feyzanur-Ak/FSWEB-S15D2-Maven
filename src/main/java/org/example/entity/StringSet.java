@@ -19,7 +19,7 @@ public class StringSet {
             + "is held in the British Library. Macmillan published a facsimile of the manuscript in 1886.";
 
     public static List<String> findUniqueWords() {
-        String cleanedText = text.replaceAll("[.,!?\"']", "").toLowerCase();
+        String cleanedText = text.replaceAll("[^a-zA-Z\\s]", "").toLowerCase();
 
         String[] words = cleanedText.split("\\s+");
 
